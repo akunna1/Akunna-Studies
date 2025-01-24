@@ -22,19 +22,19 @@ const FlexResponsive = () => {
         {/* Flexbox Layout Example */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-8 sm:gap-12 w-full max-w-7xl px-8 py-12 sm:px-16 sm:py-16 rounded-xl shadow-xl">
           {/* Flex Item 1 */}
-          <div className="bg-white p-8 rounded-xl shadow-md w-full sm:w-1/3 transform hover:scale-105 transition-all duration-300 ease-in-out">
+          <div className="bg-white h-[210px] p-8 rounded-xl shadow-md w-full sm:w-1/3 transform hover:scale-105 transition-all duration-300 ease-in-out">
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">Flex Item 1</h2>
-            <p className="text-gray-600">Flexbox makes it easy to create responsive layouts. This section demonstrates how Flexbox handles layout alignment and spacing.</p>
+            <p className="text-gray-600">sm:flex-row so that the boxes on small screens will be arranged in multiple rows and 1 column.</p>
           </div>
           {/* Flex Item 2 */}
-          <div className="bg-white p-8 rounded-xl shadow-md w-full sm:w-1/3 transform hover:scale-105 transition-all duration-300 ease-in-out">
+          <div className="bg-white h-[210px] p-8 rounded-xl shadow-md w-full sm:w-1/3 transform hover:scale-105 transition-all duration-300 ease-in-out">
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">Flex Item 2</h2>
-            <p className="text-gray-600">Tailwind's Flex utilities provide fast and responsive layouts. Flexbox handles both alignment and spacing for flexible designs.</p>
+            <p className="text-gray-600">flex-col for screens above sm so that the boxes will be arranged in multiple columns and 1 row.</p>
           </div>
           {/* Flex Item 3 */}
-          <div className="bg-white p-8 rounded-xl shadow-md w-full sm:w-1/3 transform hover:scale-105 transition-all duration-300 ease-in-out">
+          <div className="bg-white  h-[210px] p-8 rounded-xl shadow-md w-full sm:w-1/3 transform hover:scale-105 transition-all duration-300 ease-in-out">
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">Flex Item 3</h2>
-            <p className="text-gray-600">Flexbox ensures your content adapts to screen sizes dynamically. Here, we use Tailwind to create clean, responsive designs without effort.</p>
+            <p className="text-gray-600">w-full and sm:w-1/3, so that beyond sm, each box starts taking up a third of the space.</p>
           </div>
         </div>
 

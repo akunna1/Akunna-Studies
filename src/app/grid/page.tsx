@@ -20,28 +20,28 @@ const GridResponsive = () => {
         {/* Grid Example Section */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl">
           <div className="bg-white shadow-lg rounded-lg p-6 text-center">
-            <h2 className="text-xl font-semibold text-gray-800 mb-2">Column 1</h2>
-            <p className="text-gray-600">Content for the first column goes here. Adjusts based on screen size.</p>
+            <h2 className="text-xl font-semibold text-gray-800 mb-2">Grid 1</h2>
+            <p className="text-gray-600">grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6</p>
           </div>
           <div className="bg-white shadow-lg rounded-lg p-6 text-center">
-            <h2 className="text-xl font-semibold text-gray-800 mb-2">Column 2</h2>
-            <p className="text-gray-600">Content for the second column goes here. Adjusts based on screen size.</p>
+            <h2 className="text-xl font-semibold text-gray-800 mb-2">Grid 2</h2>
+            <p className="text-gray-600">grid: Applies grid layout to the container, enabling grid-based utilities.</p>
           </div>
           <div className="bg-white shadow-lg rounded-lg p-6 text-center">
-            <h2 className="text-xl font-semibold text-gray-800 mb-2">Column 3</h2>
-            <p className="text-gray-600">Content for the third column goes here. Adjusts based on screen size.</p>
+            <h2 className="text-xl font-semibold text-gray-800 mb-2">Grid 3</h2>
+            <p className="text-gray-600">grid-cols-1: Sets 1 column by default for all screen sizes smaller than sm (items stack vertically).</p>
           </div>
           <div className="bg-white shadow-lg rounded-lg p-6 text-center">
-            <h2 className="text-xl font-semibold text-gray-800 mb-2">Column 4</h2>
-            <p className="text-gray-600">Content for the fourth column goes here. Adapts in smaller screens.</p>
+            <h2 className="text-xl font-semibold text-gray-800 mb-2">Grid 4</h2>
+            <p className="text-gray-600">sm:grid-cols-2: On small screens (640px and above), sets the grid to 2 columns.</p>
           </div>
           <div className="bg-white shadow-lg rounded-lg p-6 text-center">
-            <h2 className="text-xl font-semibold text-gray-800 mb-2">Column 5</h2>
-            <p className="text-gray-600">Content for the fifth column goes here. Uses Tailwind's grid utilities.</p>
+            <h2 className="text-xl font-semibold text-gray-800 mb-2">Grid 5</h2>
+            <p className="text-gray-600">lg:grid-cols-3: On large screens (1024px and above), sets the grid to 3 columns.</p>
           </div>
           <div className="bg-white shadow-lg rounded-lg p-6 text-center">
-            <h2 className="text-xl font-semibold text-gray-800 mb-2">Column 6</h2>
-            <p className="text-gray-600">Content for the sixth column goes here. Perfect for responsive layouts.</p>
+            <h2 className="text-xl font-semibold text-gray-800 mb-2">Grid 6</h2>
+            <p className="text-gray-600">gap-6: Adds a 24px gap (1.5rem) between both rows and columns in the grid.</p>
           </div>
         </div>
 
