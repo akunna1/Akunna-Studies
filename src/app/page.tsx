@@ -47,6 +47,14 @@ function Home() {
               4. Tailwind Grid
             </Link>
           </li>
+          <li>
+            <Link 
+              href="/fetch"
+              className="block text-indigo-600 hover:text-indigo-800 font-semibold transition-all duration-300 transform hover:scale-105 hover:translate-x-1"
+            >
+              5. Fetching Data
+            </Link>
+          </li>
         </ul>
       </nav>
 
