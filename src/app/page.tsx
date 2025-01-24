@@ -30,7 +30,7 @@ function Home() {
           </li>
           <li>
             <Link 
-              href="/useeffect"
+              href="/flex"
               className="block text-blue-600 hover:text-blue-800 font-semibold transition duration-300 transform hover:scale-105"
             >
               3. Tailwind Flex
@@ -38,7 +38,7 @@ function Home() {
           </li>
           <li>
             <Link 
-              href="/useeffect"
+              href="/grid"
               className="block text-blue-600 hover:text-blue-800 font-semibold transition duration-300 transform hover:scale-105"
             >
               4. Tailwind Grid
