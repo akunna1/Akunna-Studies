@@ -55,6 +55,14 @@ function Home() {
               5. Fetching Data
             </Link>
           </li>
+          <li>
+            <Link 
+              href="/typescript"
+              className="block text-indigo-600 hover:text-indigo-800 font-semibold transition-all duration-300 transform hover:scale-105 hover:translate-x-1"
+            >
+              6. JavaScript vs. TypeScript
+            </Link>
+          </li>
         </ul>
       </nav>
 
