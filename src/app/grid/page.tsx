@@ -8,7 +8,7 @@ const GridResponsive = () => {
   return (
     <>
       <Navbar />
-      <div className="min-h-screen bg-gradient-to-r from-green-50 to-teal-100 flex flex-col items-center justify-center px-6 py-8">
+      <div className="min-h-screen bg-gradient-to-br from-red-100 via-pink-100 to-rose-200 flex flex-col items-center justify-center px-6 py-8">
         <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-800 mb-6 text-center">
           Responsive Layout with Tailwind CSS Grid
         </h1>

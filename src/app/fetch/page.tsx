@@ -44,7 +44,7 @@ const FetchDataPage = () => {
   return (
     <>
       <Navbar />
-      <div className="min-h-screen bg-gradient-to-r from-blue-50 to-indigo-100 flex flex-col items-center justify-start px-6 py-16 sm:py-24">
+      <div className="min-h-screen bg-purple-100 flex flex-col items-center justify-start px-6 py-16 sm:py-24">
         
         {/* Main Heading */}
         <h1 className="text-4xl sm:text-5xl font-extrabold text-black mb-8 text-center tracking-wide">

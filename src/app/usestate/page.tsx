@@ -12,7 +12,7 @@ const UseStateExplanation = () => {
   return (
     <>
     <Navbar />
-    <div className="min-h-screen bg-gradient-to-r from-blue-50 to-indigo-100 flex flex-col items-center justify-center px-6 py-8">
+    <div className="min-h-screen bg-yellow-50 flex flex-col items-center justify-center px-6 py-8">
       <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-800 mb-6 text-center">
         useState Explained with Math Example
       </h1>
