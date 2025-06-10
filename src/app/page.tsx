@@ -33,7 +33,7 @@ function Home() {
             { href: "/useeffect", label: "UseEffect in React" },
             { href: "/flex", label: "Tailwind Flex" },
             { href: "/grid", label: "Tailwind Grid" },
-            { href: "/fetch", label: "Fetching Data" },
+            { href: "/optimization", label: "Web Optimization" },
             { href: "/typescript", label: "JavaScript vs. TypeScript" },
             { href: "/relative", label: "Tailwind Relative vs. Absolute" }].map((item, index) => (
             <li key={item.href}>

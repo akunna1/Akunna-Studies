@@ -4,7 +4,7 @@ import { ReactNode } from "react";
 
 // Overridding metadata for this specific page
 export const metadata: Metadata = {
-  title: "Akunna Studies | Fetching Data", // Page-specific title
+  title: "Akunna Studies | Web Optimization", // Page-specific title
 };
 
 export default function UseStateLayout({ children }: { children: ReactNode }) {
