@@ -35,7 +35,9 @@ function Home() {
             { href: "/grid", label: "Tailwind Grid" },
             { href: "/optimization", label: "Web Optimization" },
             { href: "/typescript", label: "JavaScript vs. TypeScript" },
-            { href: "/relative", label: "Tailwind Relative vs. Absolute" }].map((item, index) => (
+            { href: "/relative", label: "Tailwind Relative vs. Absolute" },
+            { href: "/hydration", label: "Hydration Error in Next.js 13+" }
+          ].map((item, index) => (
             <li key={item.href}>
               <Link
                 href={item.href}
