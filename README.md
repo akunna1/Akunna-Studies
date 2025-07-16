@@ -71,9 +71,3 @@ This site serves as my personal playground for:
 ## 🤝 Contributions & Feedback
 
 Suggestions, feedback, or collaboration ideas are always welcome! Feel free to open issues or pull requests.
-
----
-
-## 📜 License
-
-[MIT License](LICENSE)
