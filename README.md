@@ -1,6 +1,6 @@
 # Akunna Studies
 
-### My ongoing web development and learning hubb
+### My ongoing web development and learning hub
 
 ---
 
